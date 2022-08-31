@@ -12,7 +12,7 @@ public class StreamFilter {
     }
 
     public List<String> filterEndWithS(List<String> words) {
-        return null;
+        return words.stream().filter(word -> word.charAt(word.length()-1) == 's').collect(Collectors.toList());
     }
 
     public List<Integer> getCommonElements(List<Integer> numbers, List<Integer> anotherNumbers) {
