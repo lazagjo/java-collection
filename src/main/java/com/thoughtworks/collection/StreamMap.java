@@ -20,15 +20,13 @@ public class StreamMap {
     }
 
     public List<String> mapLetter(List<Integer> numbers) {
-        return numbers
-                .stream()
+        return numbers.stream()
                 .map(element -> ALPHABET.get(element-1))
                 .collect(Collectors.toList());
     }
 
     public List<Integer> mapLength(List<String> words) {
-        return words
-                .stream()
+        return words.stream()
                 .map(word -> word.length())
                 .collect(Collectors.toList());
     }
