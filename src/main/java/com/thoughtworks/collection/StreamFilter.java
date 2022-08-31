@@ -1,5 +1,6 @@
 package com.thoughtworks.collection;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -12,11 +13,13 @@ public class StreamFilter {
     }
 
     public List<String> filterEndWithS(List<String> words) {
-        return words.stream().filter(word -> word.charAt(word.length()-1) == 's').collect(Collectors.toList());
+        return words.stream()
+                .filter(word -> word.charAt(word.length()-1) == 's')
+                .collect(Collectors.toList());
     }
 
     public List<Integer> getCommonElements(List<Integer> numbers, List<Integer> anotherNumbers) {
-        return null;
+        return numbers.stream().filter(element -> anotherNumbers.contains(element)).collect(Collectors.toList());
     }
 
 

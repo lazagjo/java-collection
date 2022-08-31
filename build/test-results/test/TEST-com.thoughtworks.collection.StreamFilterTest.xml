@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.collection.StreamFilterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-31T04:20:06" hostname="MNLITA03-W10" time="0.03">
+<testsuite name="com.thoughtworks.collection.StreamFilterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-31T04:25:38" hostname="MNLITA03-W10" time="0.027">
   <properties/>
-  <testcase name="should_return_even()" classname="com.thoughtworks.collection.StreamFilterTest" time="0.03"/>
+  <testcase name="should_return_common_elements()" classname="com.thoughtworks.collection.StreamFilterTest" time="0.027"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
