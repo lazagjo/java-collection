@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.collection.StreamReduceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-31T07:51:51" hostname="MNLITA03-W10" time="0.043">
-  <properties/>
-  <testcase name="should_return_longest_word()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.034"/>
-  <testcase name="should_return_total_length()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.003"/>
-  <testcase name="should_return_last_odd_element()" classname="com.thoughtworks.collection.StreamReduceTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
